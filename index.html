@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:vertical-align="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atul's Portfolio</title>
+
+    <style>
+        body {
+          font-family: 'Arial', sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f4f4f4;
+          line-height: 1.6;
+          color: #333;
+        }
+        header {
+          background-color: #333;
+          color: #fff;
+          padding: 50px 0;
+          text-align: center;
+        }
+        header h1 {
+          font-size: 3em;
+          margin: 10px 0;
+        }
+        header p {
+          font-size: 1.2em;
+          margin: 10px 0;
+        }
+        nav {
+          display: flex;
+          justify-content: center;
+          background-color: #444;
+          padding: 10px 0;
+        }
+        nav a {
+          color: #fff;
+          text-decoration: none;
+          padding: 10px 20px;
+          transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+          background-color: #555;
+        }
+        .container {
+          max-width: 960px;
+          margin: 20px auto;
+          padding: 0 20px;
+        }
+        h2 {
+          text-align: center;
+          margin-top: 40px;
+        }
+        .main-content {
+          background-color: #fff;
+          padding: 40px;
+          border-radius: 10px;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+          margin-bottom: 40px;
+        }
+        ul {
+          list-style: none;
+          padding: 0;
+        }
+        ul li {
+          margin-bottom: 10px;
+        }
+        a {
+          color: #007bff;
+          text-decoration: none;
+        }
+        a:hover {
+          text-decoration: underline;
+        }
+        article {
+          margin-bottom: 30px;
+        }
+                .about-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .about-text {
+            flex: 1;
+            margin-right: 20px; /* Adjust margin as needed */
+        }
+
+        .about-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%; /* Apply a circular border radius for a profile-like image */
+        }
+
+        .passion-icons {
+            font-size: 2em;
+            margin-top: 10px;
+        }
+
+        .passion-icons i {
+            margin: 0 10px; /* Adjust spacing between icons */
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Welcome to Atul's Portfolio</h1>
+
+    <div class="about-image">
+        <img src="A.jpeg" height="100" width="150" alt="Atul's Image" vertical-align= " baseline">
+    </div>
+    <p>Java Developer | 2 Years of Experience</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#passions">Passions</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="about" class="main-content">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Passionate and result-driven software developer professional
+                    with 2 years of experience in solving a business problem using a
+                    data-driven and outcome-oriented approach. Learning new edge-
+                    cutting tools to enhance my knowledge to outgrow the industry.A
+                    motivated individual with in-depth knowledge of Software
+                    Languages and Development tools.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="experience" class="main-content">
+        <h2>Experience</h2>
+        <article>
+            <h3>Java Developer at Infosys</h3>
+            <p><strong>09/2020 - Present</strong> | Pune</p>
+            <p>Project Name - Web Based Application</p>
+            <ul>
+                <li>Played a significant role in improving an existing web-based application and led the development of a new one.</li>
+                <li>Developed an upgraded version with additional user-friendly features using Java, Spring Boot, and Gradle.</li>
+                <li>Collaborated with a diverse team of developers, designers, and stakeholders to ensure timely delivery of high-quality software.</li>
+                <li>Used Java, Spring Boot, and Gradle to create and integrate new features, contributing to the software's growth and functionality.</li>
+                <li>Conducted comprehensive testing and debugging to ensure the software's reliability and smooth operation.</li>
+                <li>Assisted in deploying and maintaining applications, ensuring they remained up-to-date and performed seamlessly.</li>
+                <li>Implemented CI/CD pipelines on Google Cloud using Cloud Build and Container Registry, resulting in significantly improved deployment efficiency.</li>
+                <li>Utilized microservices architecture to design and develop scalable and modular components, enhancing the overall flexibility of the software ecosystem.</li>
+                <li>Worked closely with cross-functional teams to optimize data storage and retrieval using Google Cloud Storage and Cloud SQL.</li>
+                <li>Collaborated with data engineers to build scalable and cost-effective data pipelines using BigQuery on GCP.</li>
+                <li>Successfully deployed the application, enhancing the overall customer experience.</li>
+                <!-- Add other notable points -->
+            </ul>
+        </article>
+
+        <article>
+            <h3>Programmer Analyst at Cognizant</h3>
+            <p><strong>01/2020 - 05/2020</strong> | Pune</p>
+            <p>Company Description</p>
+            <ul>
+                <li>Involved in testing to ensure software applications function correctly.</li>
+                <li>Identified and fixed bugs, errors, or inconsistencies during the testing phase.</li>
+                <!-- Add other notable points -->
+            </ul>
+        </article>
+
+    </section>
+
+    <section id="certifications" class="main-content">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Infosys Certified Java Programmer</li>
+            <li>Infosys Certified Business Intelligence Associate</li>
+            <li>Infosys Certified Microsoft SSIS Developer</li>
+            <li>Infosys Certified Python Programmer</li>
+            <li>Infosys Certified Microsoft Azure Data Fundamentals</li>
+            <li>Infosys Global Agile Developer Certification</li>
+            <li>Infosys Certified Data Analyst on GCP</li>
+            <li>Infosys Certified Google Associate Cloud Engineer</li>
+            <!-- Add other certifications as needed -->
+        </ul>
+    </section>
+
+    <section id="passions" class="main-content">
+        <h2>Passions</h2>
+        <p>Football, Music, Trekking</p>
+    </section>
+
+    <section id="education" class="main-content">
+        <h2>Education</h2>
+        <article>
+            <h3>Bachelor of Engineering in Computer Science</h3>
+            <p>Chandigarh University</p>
+            <p><strong>08/2016 - 06/2020</strong> | Mohali</p>
+            <p>CGPA: ~6.11</p>
+        </article>
+    </section>
+
+    <section id="skills" class="main-content">
+        <h2>Skills</h2>
+        <ul>
+            <li>Java</li>
+            <li>Spring</li>
+            <li>Spring Boot</li>
+            <li>Groovy</li>
+            <li>Gradle</li>
+            <li>Python</li>
+            <li>C/C++</li>
+            <li>PostgreSQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Power BI</li>
+            <li>Google Cloud Platform (GCP)</li>
+            <li>Azure</li>
+            <li>CI/CD</li>
+            <li>Microservices</li>
+            <!-- Add other skills as needed -->
+        </ul>
+    </section>
+
+    <section id="contact" class="main-content">
+        <h2>Contact Information</h2>
+        <article>
+            <h3>Atul Singh</h3>
+            <p>Software Developer</p>
+            <p>+91-9304591415</p>
+            <p><a href="mailto:natul0636@gmail.com">natul0636@gmail.com</a></p>
+            <p><a href="https://www.linkedin.com/in/atulsingh0636" target="_blank">LinkedIn Profile</a></p>
+            <p>Jharkhand | IN</p>
+        </article>
+    </section>
+</div>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
